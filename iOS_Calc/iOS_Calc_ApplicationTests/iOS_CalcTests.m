@@ -73,7 +73,7 @@
    [calc_view_controller press:[calc_view viewWithTag:13]];  // +
    [calc_view_controller press:[calc_view viewWithTag: 2]];  // 2
    [calc_view_controller press:[calc_view viewWithTag:12]];  // =   
-   XCTAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"81"], @"Part 1 failed.");
+   XCTAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"10"], @"Part 1 failed.");
    
    [calc_view_controller press:[calc_view viewWithTag:13]];  // +
    [calc_view_controller press:[calc_view viewWithTag: 2]];  // 2
