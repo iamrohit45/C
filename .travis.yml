@@ -1,2 +1,3 @@
 language: objective-c
+xcode_workspace : iOS_Calc
 xcode_scheme: iOS_Calc_ApplicationTests
